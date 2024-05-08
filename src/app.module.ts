@@ -7,7 +7,7 @@ import { TodoModule } from './todo/todo.module';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb+srv://ngochoangdev:ngochoangdev2505@cluster0.kxtn5jt.mongodb.net/test',
+      'mongodb+srv://ngochoangdev:ByXQ2havPMwJBReE@cluster0.obvmoum.mongodb.net/',
     ),
     ConfigModule.forRoot({
       isGlobal: true,
